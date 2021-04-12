@@ -20,3 +20,9 @@
 .cmpb_vport {
     height: 100vh;
 }
+
+@media (max-width: 1200px) {
+    .container_main_page_border{
+        width: 95%;
+    }
+}
