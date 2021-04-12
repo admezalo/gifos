@@ -78,7 +78,7 @@ export default function PanelSearchGifs(){
                 ¡Inspirate y busca los mejores <span>GIFS!</span>
             </h4>
             <form onSubmit={handleOnsubmit}>
-                <img src={ImgIlustraHeader} alt="logo principal" width="50px"/>
+                <img src={ImgIlustraHeader} alt="logo principal"/>
                 <div>
                     <input 
                         onChange={handleChange}
