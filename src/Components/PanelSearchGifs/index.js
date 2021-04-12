@@ -87,23 +87,23 @@ export default function PanelSearchGifs(){
                         className={state.isDark === true ? "input_dark": "input_light"}
                         value={query}
                         placeholder="busca gifs"/>
-                {state.isDark ? (
-                    <div className="btn_search_dark" onClick={handleClick}>
-                        {query.length > 0 ? (
+                    {state.isDark ? (
+                        <div className="btn_search_dark" onClick={handleClick}>
+                            {query.length > 0 ? (
+                                    <SvgClose fill="white" width="20px"/>
+                                ) : (
+                                    <img src={ImgIconSearchDark} alt="search"/>
+                                )}
+                        </div>
+                        ) : (
+                        <div className="btn_search_light" onClick={handleClick}>
+                            {query.length > 0 ? (
                                 <SvgClose fill="white" width="20px"/>
                             ) : (
                                 <img src={ImgIconSearchDark} alt="search"/>
                             )}
-                    </div>
-                    ) : (
-                    <div className="btn_search_light" onClick={handleClick}>
-                        {query.length > 0 ? (
-                            <SvgClose fill="white" width="20px"/>
-                        ) : (
-                            <img src={ImgIconSearchDark} alt="search"/>
-                        )}
-                    </div>
-                )}
+                        </div>
+                    )}
                 </div>
                 {searchDataList}
             </form>
