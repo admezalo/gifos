@@ -61,14 +61,16 @@ export default function PanelSearchGifs(){
     const imgLogo = state.isDark === true ? (
         <img src={ImgLogoDesktopDark} alt="logo lighted" width="65px"/>
     ) : (
-        <img src={ImgLogoDesktopLighted} alt="logo lighted" width="63px"/>
+        <img src={ImgLogoDesktopLighted} alt="logo lighted" width="65px"/>
     )
     
     return(
         <div className={`container_panel_search_gifs ${state.isDark === true ? "cpsg_dark": "cpsg_light"}`}>
             <header>
                 <div>
-                    {imgLogo}
+                    <div className="img_logo_size">
+                        {imgLogo}
+                    </div>
                     <ButtonLightDark />
                 </div>
             </header>

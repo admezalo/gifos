@@ -25,6 +25,10 @@ header > div {
     justify-content: space-between;
     width: 100%;
 }
+.img_logo_size{ 
+    width: 65px;
+    height: 65px;
+}
 h4 {
     font-size: 36px;
     font-weight: 700;
