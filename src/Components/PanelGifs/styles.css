@@ -1,0 +1,21 @@
+.container_panel_gifts{
+    width: 100%;
+    margin: auto;
+}
+.cpg_light{ background-color: #e0e0e0; }
+.cpg_dark{ background-color: #212121; }
+.container_gifs{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: auto;
+    padding-bottom: 20px;
+}
+
+iframe{
+    border: 1px solid #cfd8dc;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 3px;
+}

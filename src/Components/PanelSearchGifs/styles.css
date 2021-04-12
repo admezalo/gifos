@@ -1,0 +1,105 @@
+.container_panel_search_gifs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    /*border-left: 1px solid #cfd8dc;*/
+    /*border-right: 1px solid #cfd8dc;*/
+}
+.cpsg_dark {
+    background-color: #37474f;
+}
+.cpsg_light {
+    background-color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.hx_dark {
+    color: white;
+}
+.hx_light {
+    color: #572EE5;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 25px;
+}
+form > img {
+    width: 80%;
+    margin: auto;
+}
+form > div {
+    display: flex;
+}
+form > div > input {
+    width: 90%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 20px;
+    /*background: url("images/icon-search-lighted.svg") no-repeat scroll 7px 7px;*/
+    /*padding-left: 30px;*/
+}
+form > div > input:active,
+form > div > input:focus{
+    outline: none;
+}
+.input_dark{ 
+    background-color: #37474f;
+    border: 1px solid white;
+    color: white;
+}
+.input_light{ 
+    background-color: white;
+    border: 1px solid #572EE5;
+    color: #424242;
+}
+h6 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #572EE5;
+    margin-top: 20px;
+}
+form > div > div {
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 7px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 28px;
+    cursor: pointer;
+}
+.btn_search_light {
+    border: 1px solid #572EE5;
+    background-color: #572EE5;
+    border-left: none;
+}
+.btn_search_dark {
+    border: 1px solid white;
+    background-color: #572EE5;
+    border-left: none;
+}
+.icon_search_close{
+    width: 20px;
+    fill: white;
+    color: white;
+}

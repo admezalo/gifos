@@ -1,0 +1,23 @@
+.btn{
+    padding: 15px 32px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn:active,
+.btn:focus {
+    outline: none;
+}
+.btn_light {
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6809E1;
+    border: 1px solid #6809E1;
+}
+.btn_dark {
+    background-color: #37474f;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+}

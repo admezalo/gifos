@@ -1,0 +1,22 @@
+.container_main_page{
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+}
+.cmp_vport {
+    height: 100vh;
+}
+.cmp_dark {
+    background-color: #37474f;
+}
+.cmp_ligth {
+    background-color: white;
+}
+.container_main_page_border {
+    width: 75%;
+    border-left: 1px solid #cfd8dc;
+    border-right: 1px solid #cfd8dc;
+}
+.cmpb_vport {
+    height: 100vh;
+}
