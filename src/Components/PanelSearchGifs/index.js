@@ -18,13 +18,13 @@ export default function PanelSearchGifs(){
     const STR_RESULT = "Resultados de la búsqueda";
     const STR_SEARCH = "Busca los GIFS! que te gusten";
     const STR_ERROR = "No se encontraron GIFS :`(";
-    const STR_LOADING = "... descargando los GIFS! ..."
+    const STR_LOADING = "... cargando los GIFS! ..."
 
     const handleChange = (event) => {
         setQuery(event.target.value);
     }
 
-    const handleOnsubmit = (event, name) => {
+    const handleOnsubmit = (event) => {
         event.preventDefault();
         fnSetQueryGif(query);
     }
@@ -83,7 +83,8 @@ export default function PanelSearchGifs(){
                         onSubmit={(event) => handleOnsubmit(event, "input")}
                         list="search_gifs"
                         className={state.isDark === true ? "input_dark": "input_light"}
-                        value={query}/>
+                        value={query}
+                        placeholder="busca gifs"/>
                 {state.isDark ? (
                     <div className="btn_search_dark" onClick={handleClick}>
                         {query.length > 0 ? (
