@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gifos/static/css/main.e03d49be.chunk.css",
-    "main.js": "/gifos/static/js/main.39325332.chunk.js",
-    "main.js.map": "/gifos/static/js/main.39325332.chunk.js.map",
+    "main.css": "/gifos/static/css/main.66f8cbf4.chunk.css",
+    "main.js": "/gifos/static/js/main.9d3885b1.chunk.js",
+    "main.js.map": "/gifos/static/js/main.9d3885b1.chunk.js.map",
     "runtime-main.js": "/gifos/static/js/runtime-main.097b8471.js",
     "runtime-main.js.map": "/gifos/static/js/runtime-main.097b8471.js.map",
     "static/js/2.4b365120.chunk.js": "/gifos/static/js/2.4b365120.chunk.js",
     "static/js/2.4b365120.chunk.js.map": "/gifos/static/js/2.4b365120.chunk.js.map",
     "index.html": "/gifos/index.html",
-    "static/css/main.e03d49be.chunk.css.map": "/gifos/static/css/main.e03d49be.chunk.css.map",
+    "static/css/main.66f8cbf4.chunk.css.map": "/gifos/static/css/main.66f8cbf4.chunk.css.map",
     "static/js/2.4b365120.chunk.js.LICENSE.txt": "/gifos/static/js/2.4b365120.chunk.js.LICENSE.txt",
     "static/media/icon-search-dark.ecc2b197.svg": "/gifos/static/media/icon-search-dark.ecc2b197.svg",
     "static/media/ilustra-header.1932dc9b.svg": "/gifos/static/media/ilustra-header.1932dc9b.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.097b8471.js",
     "static/js/2.4b365120.chunk.js",
-    "static/css/main.e03d49be.chunk.css",
-    "static/js/main.39325332.chunk.js"
+    "static/css/main.66f8cbf4.chunk.css",
+    "static/js/main.9d3885b1.chunk.js"
   ]
 }
