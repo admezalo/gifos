@@ -20,8 +20,15 @@ export default function PanelGifts(){
         <div className={`container_panel_gifts ${state.isDark ? "cpg_dark" : "cpg_light"}`}>
             <div className={`container_gifs`}>
                 {state.gifs.map(gif => {
-                    return <iframe key={gif.id} src={gif.embed_url} title={gif.title} onLoad={handleOnLoad}></iframe>
-                    //return <img key={gif.id} src={gif.images.downsized.url} alt="animated gif"/>
+                    return (
+                        <div className="img_gif" key={gif.id}>
+                            <img 
+                                key={gif.id} 
+                                src={gif.images.downsized.url} 
+                                alt="animated gif" 
+                                onLoad={handleOnLoad} />
+                        </div>
+                    )
                 })}
             </div>
         </div>
